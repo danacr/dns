@@ -27,7 +27,7 @@ resource "cloudflare_zone_settings_override" "settings" {
     ipv6                      = "on"
     # log_to_cloudflare         = "on"
     max_upload                = 100
-    min_tls_version           = "1.0"
+    min_tls_version           = "1.2"
     minify {
       css  = "off"
       html = "off"
