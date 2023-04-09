@@ -27,5 +27,5 @@ resource "cloudflare_record" "go" {
   name    = "go"
   value   = "cname.short.io"
   type    = "CNAME"
-  proxied = false
+  proxied = true
 }
