@@ -7,7 +7,7 @@ resource "cloudflare_zone_settings_override" "settings" {
 
   zone_id = data.cloudflare_zones.dan.zones[0].id
   settings {
-    always_online             = "off"
+    always_online             = "on"
     always_use_https          = "on"
     automatic_https_rewrites  = "on"
     brotli                    = "on"
